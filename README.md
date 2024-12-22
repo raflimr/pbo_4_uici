@@ -1,85 +1,27 @@
-# Segmentation Agriculture Sentinel 2 Dataset using Segment Anything Model (SAM)
+# **Tugas Kuliah**  
+### Universitas Insan Cita Indonesia  
 
-## Description
-This project utilizes the Segment Anything Model (SAM) for segmentation on the Agriculture Sentinel-2 dataset. The application is built using Flask and provides a web-based interface for segmentation tasks.
+**Mata Kuliah:** Pemrograman Berorientasi Objek  
 
-## Requirements
-- Python 3.9
-- Conda (optional)
-- Docker (optional)
+---
 
-## How to Run the Project
+## Deskripsi Tugas
+Praktekan dan pahami kembali materi praktikum di pertemuan ke-4 [https://replit.com/@hynra/PBO-4](https://replit.com/@hynra/PBO-4), beri komentar setiap baris semampu pemahaman Anda. Submit tugas dalam bentuk link ke repl di akun Replit Anda
 
-### Using Conda
-1. Create a new Conda environment:
-   ```bash
-   conda create --name my_python_env python=3.9
+---
+
+## Petunjuk Menjalankan Kode dengan GitHub Codespaces
+
+1. Klik tombol **<> Code** pada repository GitHub.
+2. Pada pop-up yang muncul, pilih tab **Codespaces**.
+3. Klik tombol **Create codespace on main**.
+4. Tunggu hingga folder dan file dalam repository selesai dimuat.
+5. Jalankan program dengan mengetik perintah berikut di terminal:
+   ```
+   java Main
    ```
 
-2. Activate the environment:
-   ```bash
-   conda activate my_python_env
-   ```
+### Catatan
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the application:
-   ```bash
-   python app.py
-   ```
-
-5. Access the application in your browser at:
-   ```
-   http://localhost:5000
-   ```
-
-### Using Docker
-1. Build the Docker image:
-   ```bash
-   docker build -t flask_website .
-   ```
-
-2. Run the Docker container:
-   ```bash
-   docker run -d -p 5000:5000 --name flask_app flask_website
-   ```
-
-3. Access the application in your browser at:
-   ```
-   http://localhost:5000
-   ```
-
-## Project Structure After Running Conda or using Docker
-```
-flask_website/
-├── models/
-│   └── sam_vit_b_01ec64.pth
-├── model/
-│   └── sam_model.py
-├── static/
-│   ├── css/
-│   ├── images/
-│   ├── png/
-│   └── results/
-├── templates/
-│   ├── about-us.html
-│   ├── index.html
-│   ├── segmentation.html
-│   ├── segmentation_results.html
-│   ├── sign-in.html
-│   └── sign-up.html
-├── app.py
-├── Dockerfile
-├── README.md
-└── requirements.txt
-```
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-- [Segment Anything Model (SAM)](https://segment-anything.com/)
+Saya memilih menjalankan kode di GitHub Codespaces karena Replit.com kini mulai berbayar dan membatasi penggunaannya hanya untuk 3 repository saja.
 
